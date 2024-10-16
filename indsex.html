@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .img {
+            width: 500px;
+            margin: 0 auto;
+            height: 500px;
+            background-image: url('./img/white.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            transition: .5s ease;
+        }
+
+        button {
+            padding: 20px 30px;
+            background-color: blue;
+            color: white;
+        }
+
+        .container {
+
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            text-align: center;
+            font-weight: 600;
+        }
+
+
+
+
+
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .ssd {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 40px;
+            font-weight: 600;
+        }
+
+        .slide {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-weight: 600;
+        }
+
+        .product img {
+            max-width: 300px;
+            height: auto;
+        }
+
+        .slide-d {
+            text-align: left;
+
+            h2 {
+                font-size: 48px;
+                margin-bottom: 10px;
+            }
+
+            a {
+                font-size: 18px;
+                text-decoration: none;
+
+            }
+
+            .price {
+                font-size: 25px;
+                color: #333;
+                margin-bottom: 20px;
+
+            }
+        }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Supercharged for pros.</h1>
+        <p class="ssd">The most powerful MacBook Pro ever is here. With the blazing-fast M1 Pro or M1 Max chip – the
+            first Apple silicon designed for pros – you get groundbreaking performance and amazing battery life. Add to
+            that a stunning Liquid Retina XDR display, the best camera and audio ever in a Mac notebook, and all the
+            ports you need. The first notebook of its kind, this MacBook Pro is a beast.</p>
+        <div class="slide">
+            <div class="slide-d">
+                <h2>MacBook Pro</h2>
+                <a href="#">White</a>
+                <p class="price">$1,999</p>
+                <div class="zzz">
+                    <button data-color="SpaceGrey">Space Grey</button>
+                    <button data-color="White">White</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <center>
+        <!-- <img src="./public/Pro_Max.webp" alt=""> -->
+        <div class="img"></div>
+    </center>
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
